@@ -1,0 +1,10 @@
+[package]
+name = "bmi-example-rust"
+version = "0.1.0"
+edition = "2024"
+description = "A two-dimensional heat model implementing the CSDMS Basic Model Interface"
+license = "Apache-2.0"
+publish = false
+
+[dependencies]
+bmi-rust = "0.1"

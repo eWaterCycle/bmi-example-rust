@@ -1,0 +1,26 @@
+# See https://ai-declaration.org/ for more information.
+schema_version: 1.0.0
+project:
+  name: bmi-example-rust
+  repository: https://github.com/eWaterCycle/bmi-example-rust
+  license: Apache-2.0
+  content_type: software
+ai_usage:
+  used: true
+  summary: >-
+    OpenAI Codex wrote all project code and documentation, with Stefan Verhoeven
+    providing prompts and steering the work.
+  level: significant
+  scope:
+    code_generation: true
+    documentation: true
+  tools:
+    - name: OpenAI Codex
+      type: agent
+      hosting: cloud_vendor
+      purpose:
+        - code generation
+        - documentation
+declaration:
+  declared_by: Stefan Verhoeven
+  date: "2026-11-11"
